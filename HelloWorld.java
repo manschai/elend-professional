@@ -12,6 +12,7 @@ class HelloWorld
   static public void textausgabe (String text)
   {
 	  System.out.println(text);
+	  System.out.print(text);
 	  return;
   }
 	  		
