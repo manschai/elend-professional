@@ -1,8 +1,19 @@
-/* Comment /*
+/* Comment */
 class HelloWorld
 {
   public static void main (String arg[]) 
   {
-    System.out.println("HelloWorld Hi Doofy");
+    System.out.println("HelloWorld Hi Doofy Tag");
+	textausgabe ("hoho"); 
   }
+
+
+  
+  static public void textausgabe (String text)
+  {
+	  System.out.println(text);
+	  return;
+  }
+	  		
 }  
+
